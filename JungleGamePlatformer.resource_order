@@ -18,10 +18,12 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"TileSet1","order":3,"path":"tilesets/TileSet1/TileSet1.yy",},
     {"name":"spr_jumping","order":1,"path":"sprites/spr_jumping/spr_jumping.yy",},
     {"name":"spr_mid_air","order":4,"path":"sprites/spr_mid_air/spr_mid_air.yy",},
     {"name":"spr_run","order":5,"path":"sprites/spr_run/spr_run.yy",},
     {"name":"spr_landing","order":2,"path":"sprites/spr_landing/spr_landing.yy",},
+    {"name":"spr_tileset","order":4,"path":"sprites/spr_tileset/spr_tileset.yy",},
     {"name":"spr_ledge_grab","order":3,"path":"sprites/spr_ledge_grab/spr_ledge_grab.yy",},
   ],
 }

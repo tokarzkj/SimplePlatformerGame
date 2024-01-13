@@ -9,7 +9,7 @@
     "children": [],
     "name": "Default",
   },
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy",},
@@ -35,12 +35,15 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"spr_jumping","path":"sprites/spr_jumping/spr_jumping.yy",},},
     {"id":{"name":"spr_mid_air","path":"sprites/spr_mid_air/spr_mid_air.yy",},},
     {"id":{"name":"spr_run","path":"sprites/spr_run/spr_run.yy",},},
     {"id":{"name":"spr_landing","path":"sprites/spr_landing/spr_landing.yy",},},
+    {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},},
     {"id":{"name":"spr_ledge_grab","path":"sprites/spr_ledge_grab/spr_ledge_grab.yy",},},
     {"id":{"name":"spr_standing","path":"sprites/spr_standing/spr_standing.yy",},},
+    {"id":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
