@@ -4,6 +4,12 @@
 move_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 move_x *= move_speed;
 
+if ((x < 0 + sprite_width && move_x < 0) || 
+	(x > room_width - sprite_width && move_x > 0))
+{
+	move_x = 0;	
+}
+
 var _tilemap = layer_tilemap_get_id("JungleTiles");
 
 if (move_x == 0)
@@ -31,11 +37,5 @@ if (place_meeting(x, y + 2, _tilemap))
 }
 else if (move_y < 10) move_y += 1;
 
-move_and_collide(move_x, move_y, _tilemap);
-
-//motion_add(90, -1);
-
-//if (place_meeting(x, y + 10, _tilemap))
-//{	
-//	motion_set(90, 0);
-//}
+move_and_collide(move_x, move_y, _tilemap, 4, 0, 0, move_speed, -1);
+x = clamp(x, 0 + 10, room_width + 20);
