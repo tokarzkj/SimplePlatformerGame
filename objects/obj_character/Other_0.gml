@@ -7,7 +7,9 @@ if (y > room_height)
 	
 	if (obj_game.character_lives == 0)
 	{
-		obj_game.alarm[0] = 30;
+		
+		obj_game.game_result = GAME_STATUS.LOST;
+		room_goto_next();
 	}
 	else
 	{

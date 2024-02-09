@@ -30,7 +30,7 @@ else
 	}
 }
 
-if (place_meeting(x, y + 2, _tilemap))
+if (place_meeting(x, y + 3, _tilemap))
 {
 	move_y = 0;
 	if (keyboard_check(ord("W"))) move_y = -jump_speed;
